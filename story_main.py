@@ -141,7 +141,8 @@ def rand_noun():
              "Eric Cartman",
              "the man in a 3-piece suit with a piece of toilet paper stuck to his left shoe",
              "the paper-mache representation of the meaning of life",
-             "Illidan's left-hand warglaive"
+             "Illidan's left-hand warglaive",
+             "the One Ring"
              ]
     return rc(nouns)
 
@@ -159,7 +160,8 @@ def rand_verb():
              "lectured about",
              "pick-pocketed",
              "sang a moving, tragic ballad about",
-             "set fire to"
+             "set fire to",
+             "defenestrated"
              ]
 
     return rc(verbs)
@@ -176,7 +178,9 @@ def rand_classmem():
              "Mr. Banerjee",
              "Dr. Park",
              "Dr. Auernheimer",
-             "Dr. Li"
+             "Dr. Li",
+             "Rick",
+             "Morty"
              ]
     return rc(names)
 
@@ -194,7 +198,8 @@ def rand_num():
             "approximately 24",
             "a benjamin",
             "way more than necessary",
-            "OVER 9,000 (!)"
+            "OVER 9,000 (!)",
+            "infinity"
             ]
     
     return rc(nums)
@@ -218,7 +223,8 @@ def rand_quote():
               "'So, it has come to this.'",
               "'My robot lemur assassins should be able to handle this!'",
               "'Does anyone else think that guy looks like the Estonian Prime Minister?'",
-              "'Can anyone really prove that Harry isn't here right now wearing his invisibility cloak?'"
+              "'Can anyone really prove that Harry isn't here right now wearing his invisibility cloak?'",
+              "'Allonsay!'"
               ]
 
 
